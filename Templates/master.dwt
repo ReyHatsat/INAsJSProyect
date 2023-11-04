@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<link href="../css/estilos.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="../js/jsproyect.js"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="header">
+<div class="imageheader">
+<img src="../images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+<div id="headercentro">
+  <h1>JS Proyect!</h1>
+  <p>(el proyecto de la vida...) </p>
+</div>
+<div class="imageheader">
+<img src="../images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+</div>
+</div>
+<div id="nave">
+		<ul>
+	        <a href="../Index.html"><li>Inicio</li></a>
+	        <a href="../Calculadora.html"><li>Calculadora</li></a>
+	        <a href="../Complementos.html"><li>Complementos</li></a>
+	        <a href="../Bingo.html"><li>Bingo</li></a>
+        </ul>
+</div>
+</div>
+<div id="seccion">
+<!-- TemplateBeginEditable name="seccionDeJsProyect" -->seccionDeJsProyect<!-- TemplateEndEditable --></div>
+<div id="pie">Daniel 18/12/2017 todos los derechos reservados.<br />
+  No nos hacemos responsables si su equipo explota al abrir esta cosa,<br />
+  queda advertido...
+</div>
+</body>
+</html>
+

@@ -1,0 +1,135 @@
+body{
+	background-image:url(../images/fondoMadera.jpg)
+}
+#header {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #C63;
+	text-align: center;
+	height: 100px;
+	opacity:0.7;
+}
+#pie {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #C63;
+	text-align: center;
+	height: 60px;
+	opacity:0.7;
+}
+
+#nave ul li {
+	float: left;
+	height: 30px;
+	width: 23%;
+	list-style-type: none;
+	background-color: #C60;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+}
+#nave ul a li {
+	text-decoration: none;
+	opacity:0.7;
+}
+#nave {
+	height: 40px;
+	width: 100%;
+	background-color: #F93;
+}
+.imageheader {
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+#headercentro {
+	height: 100px;
+	width: 50%;
+	float: left;
+}
+.imghead {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+#seccion {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: 500px;
+	width: 100%;
+}
+.centrarConten {
+	padding: 10%;
+	height: 50%;
+	width: 50%;
+	margin-top: 0%;
+	margin-right: 25%;
+	margin-bottom: 0%;
+	margin-left: 25%;
+}
+.botonMarcianito {
+	background-color: #C30;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#seccionDelBingo {
+	background-color: #FFF;
+	width: 260px;
+}
+
+
+h1, th 	{
+	font-family:Geergia,"Times New Roman", Times, serif;
+	}
+
+h1	{
+	font-size:28px;
+	}
+
+table	{
+	border-collapse:collapse;
+	}
+
+th, td	{
+	padding:10px;
+	border:2px #666 solid;
+	text-align:center;
+	font-size:24px;	
+	}
+
+#free	{
+	background-color:#f66;	
+	}
+#encab	{
+	background-color:#f66;
+	}
+.complementos {
+	background-color: #FFF;
+	float: left;
+	height: 180px;
+	width: 23%;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#seccionDeComple {
+	margin: 1%;
+	padding: 1%;
+}

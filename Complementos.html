@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Complementos</title>
+<!-- InstanceEndEditable -->
+<link href="css/estilos.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="js/jsproyect.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="header">
+<div class="imageheader">
+<img src="images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+<div id="headercentro">
+  <h1>JS Proyect!</h1>
+  <p>(el proyecto de la vida...) </p>
+</div>
+<div class="imageheader">
+<img src="images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+</div>
+</div>
+<div id="nave">
+		<ul>
+	        <a href="Index.html"><li>Inicio</li></a>
+	        <a href="Calculadora.html"><li>Calculadora</li></a>
+	        <a href="Complementos.html"><li>Complementos</li></a>
+	        <a href="Bingo.html"><li>Bingo</li></a>
+        </ul>
+</div>
+</div>
+<div id="seccion">
+<!-- InstanceBeginEditable name="seccionDeJsProyect" -->
+<div id="seccionDeComple">
+  <div class="complementos">
+
+<h2>Convierte numero en texto</h2>
+
+<p id="complemento1"></p>
+
+<script>
+var x = 123;
+document.getElementById("complemento1").innerHTML =
+    x.toString() + "<br>" +
+   (123).toString() + "<br>" +
+   (100 + 23).toString();
+</script>
+
+  </div>
+  <div class="complementos">
+  
+  <h2>Hora del sistema</h2>
+  
+<p id="complemento2"></p>
+
+<script>
+document.getElementById("complemento2").innerHTML = Date();
+</script>
+  
+  </div>
+  <div class="complementos">
+  
+ <h2>JavaScript Arrays</h2>
+
+<p id="complemento3"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("complemento3").innerHTML = cars;
+</script>
+  
+  </div>
+  <div class="complementos">
+  
+  
+  <h2>Día de la semana</h2>
+  
+<p id="complemento4"></p>
+
+<script>
+var day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
+}
+document.getElementById("complemento4").innerHTML = "Today is " + day;
+</script>
+
+  </div>
+</div>
+<!-- InstanceEndEditable -->
+</div>
+<div id="pie">Daniel 18/12/2017 todos los derechos reservados.<br />
+  No nos hacemos responsables si su equipo explota al abrir esta cosa,<br />
+  queda advertido...
+</div>
+</body>
+<!-- InstanceEnd --></html>
+

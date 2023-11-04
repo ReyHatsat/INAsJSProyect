@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Calculadora</title>
+<!-- InstanceEndEditable -->
+<link href="css/estilos.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="js/jsproyect.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="header">
+<div class="imageheader">
+<img src="images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+<div id="headercentro">
+  <h1>JS Proyect!</h1>
+  <p>(el proyecto de la vida...) </p>
+</div>
+<div class="imageheader">
+<img src="images/JsLogo.png" alt="logo" width="1000" height="1385" class="imghead" longdesc="Logo del Header" />
+</div>
+</div>
+</div>
+<div id="nave">
+		<ul>
+	        <a href="Index.html"><li>Inicio</li></a>
+	        <a href="Calculadora.html"><li>Calculadora</li></a>
+	        <a href="Complementos.html"><li>Complementos</li></a>
+	        <a href="Bingo.html"><li>Bingo</li></a>
+        </ul>
+</div>
+</div>
+<div id="seccion">
+<!-- InstanceBeginEditable name="seccionDeJsProyect" -->
+<div class="centrarConten"><form>
+    
+<table style="border: 3px solid #000; text-align:center;">
+	<tr style="text-align:center;">
+		<td colspan = "4">
+			<input id="resultado" type="text" value="0" size="20" style="border: 3px solid blue; padding: 10px;" /><input id="memoria" type="hidden" value="0" />
+		</td>
+	</tr>
+
+	<tr style="text-align:center;">
+		<td>
+		<input type="button" value="7"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=7}else{ var str2='7'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="8"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=8}else{ var str2='8'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="9"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=9}else{ var str2='9'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="/"
+		  onClick="operaciones('dividir'); return false;"
+		  style="width:55px">
+		</td>
+	</tr>
+
+	<tr style="text-align:center;">
+		<td>
+		<input type="button" value="4"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=4}else{ var str2='4'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="5"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=5}else{ var str2='5'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="6"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=6}else{ var str2='6'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="*"
+		  onClick="operaciones('multiplicar'); return false;"
+		  style="width:55px">
+		</td>
+	</tr>
+
+	<tr style="text-align:center;">
+		<td>
+		<input type="button" value="1"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=1}else{ var str2='1'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="2"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=2}else{ var str2='2'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="3"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=3}else{ var str2='3'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px">
+		</td>
+		<td>
+		<input type="button" value="-" 
+		  onClick="operaciones('restar'); return false;"
+		  style="width:55px">
+		</td>
+	</tr>
+
+	<tr style="text-align:center;">
+		<td>
+		<input type="button" value="0"
+		  onClick="var str1=document.getElementById('resultado').value; if(str1 == '0'){document.getElementById('resultado').value=0}else{ var str2='0'; var res = str1.concat(str2);document.getElementById('resultado').value=res;}"
+		  style="width:55px"> 
+		</td>
+		<td colspan="2">
+		<input type="button" value="="
+		  onClick="operaciones('igual'); return false;"
+		  style="width:110px">
+		</td>
+		<td>
+		<input type="button" value="+"
+		  onClick="operaciones('sumar'); return false;"
+		  style="width:55px">
+		</td>
+	</tr>
+
+
+</table>	
+	
+</form>
+</div>
+<!-- InstanceEndEditable --></div>
+<div id="pie">Daniel 18/12/2017 todos los derechos reservados.<br />
+  No nos hacemos responsables si su equipo explota al abrir esta cosa,<br />
+  queda advertido...
+</div>
+</body>
+<!-- InstanceEnd --></html>
+
